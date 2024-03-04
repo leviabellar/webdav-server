@@ -6,4 +6,4 @@ const app = express();
  
 // Mount the WebDAVServer instance
 app.use(webdav.extensions.express('/my/sub/path', server));
-app.listen(8080); // Start the Express server
+app.listen(443); // Start the Express server
